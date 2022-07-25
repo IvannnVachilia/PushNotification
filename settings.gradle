@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "PushNotification"
 include ':PushNotification'
+include ':testmodule'
