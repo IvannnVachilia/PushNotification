@@ -10,8 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' } // <- here we go
     }
 }
 rootProject.name = "PushNotification"
-include ':app'
 include ':PushNotification'
